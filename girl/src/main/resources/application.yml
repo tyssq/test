@@ -1,0 +1,12 @@
+spring:
+   profiles:
+      active: prod
+   datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://rm-wz98jagy24c47fd56o.mysql.rds.aliyuncs.com:3306/dd_weixin_accesstoken
+      username: itapgo
+      password: Bujidele1405
+   jpa:
+      hibernate:
+         ddl-auto: update
+      show-sql: true
